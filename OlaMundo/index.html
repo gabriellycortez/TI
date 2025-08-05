@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            font-size: 25px;
+            color: darkred;
+        }
+
+        h2 {
+            color: red;
+        }
+
+        #titulo-principal {
+            background-color: darkred;
+            color: white;
+            text-align: center;
+        }
+
+        .topico {
+            text-align: right;
+        }
+
+        .texto {
+            text-align: justify;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: green;
+        }
+
+        a:visited {
+            color:darkgreen
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial:hover {
+            color: white;
+            background-color: darkgreen;
+            text-decoration: none;
+        }
+
+        .especial::before {
+            content: ">>";
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Personalizando</h1>
+    <p>Acesse meu instagram, <a href="https://www.instagram.com/">clique aqui!</a></p>
+    <p>Acesse meu facebook, <a href="https://www.facebook.com/?locale=pt_BR" class="especial">clique aqui!</a></p>
+
+    <h1 id="titulo-principal">Capitulo 1</h1>
+    <h2 class="topico">Capitulo 1.2</h2>
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt sunt et repellendus eum possimus blanditiis sed cumque similique, iusto dignissimos labore molestiae nisi hic, ad consequuntur nihil magnam. Quidem?</p>
+    <h1>Capitulo 2 </h1>
+    <h2 class="topico">Capitulo 2.2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt sequi impedit dolores itaque consectetur non dolorem, laborum velit excepturi provident? Amet nesciunt labore corporis placeat assumenda ad ipsam vitae.</p>
+</body>
+</html>
